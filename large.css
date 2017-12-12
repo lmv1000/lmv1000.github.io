@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #878787;
+    margin: 0;
+    font-family: cursive;
+    text-align: center;
+}
+h1 {
+    font-size: 75px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+img {
+    max-width: 100%;
+}
+h2 {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+h4 {
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+}
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+.nav-bar-link {
+    color: mediumseagreen;
+    font-size: 24px;
+    padding: 25px;
+    text-decoration: none;
+}
+.nav-bar-list a:hover {
+    padding-top: 10px;
+    background-color: darkgreen;
+    float: left;
+}
+.main-header {
+    padding-top: 250px;
+    height: 850px;
+    background: url("imgs/vineyardpano.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header2 {
+    padding-top: 250px;
+    height: 850px;
+    background: url("imgs/hand.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header3 {
+    padding-top: 250px;
+    height: 850px;
+    background: url("imgs/seyval.jpg") no-repeat center;
+    background-size: cover;
+    font-size: 100px;
+}
+.main-header4 {
+    padding-top: 250px;
+    height: 850px;
+    background: url("imgs/vineyards.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header5 {
+    padding-top: 250px;
+    height: 850px;
+    background: url("imgs/grape.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header6 {
+    padding-top: 10px;
+    background: url("imgs/vineyards.jpg") repeat center;
+}
+.intro {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+.intro2 {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+}
+.box {
+    width: 80%;
+    margin: auto;
+}
+.box4{
+    width: 60%;
+    margin: auto;
+}
+.box2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.card {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+    background-color: green;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    color: white;
+}
+.card2 {
+    width: 100% ;
+    padding: 10px;
+    text-align: center;
+}
+.card3 {
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+}
+.card4 {
+    width: 30%;
+}
+.list {
+    color: grey;
+    font-size: 20px;
+    font-family: cursive;
+}
+.animation {
+    animation-duration: 5s;
+    animation-name: run;
+    animation-iteration-count: 1;
+}
+.image {
+    height: 350px;
+    width: 375px;
+}
+.box5 {
+    display: flex;
+    margin: auto;
+}
+@keyframes run {
+    from {margin-left: 100%;
+        width: 100%;}
+    to {margin-left: 0%;}
+}

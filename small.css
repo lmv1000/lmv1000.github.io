@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: #878787;
+    margin: 0;
+    font-family: cursive;
+    text-align: center;
+}
+h1 {
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: cursive;
+}
+img {
+    max-width: 100%;
+}
+h2 {
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+h4 {
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+p {
+    text-align: justify;
+}
+ol {
+    text-align: justify;
+}
+.nav-bar {
+    list-style-type: none;
+    margin: auto;
+}
+.nav-bar-list {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    background: brown;
+}
+.nav-bar-link {
+    color: mediumseagreen;
+    font-size: 15px;
+    padding: 25px;
+    text-decoration: none;
+}
+.main-header {
+    padding-top: 150px;
+    height: 400px;
+    background: url("imgs/vineyardpano.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header2 {
+    padding-top: 150px;
+    height: 400px;
+    background: url("imgs/hand.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header3 {
+    padding-top: 150px;
+    height: 400px;
+    background: url("imgs/seyval.jpg") no-repeat center;
+    background-size: cover;
+    font-size: 35px;
+}
+.main-header4 {
+    padding-top: 150px;
+    height: 400px;
+    background: url("imgs/vineyards.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header5 {
+    padding-top: 150px;
+    height: 400px;
+    background: url("imgs/grape.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header6 {
+    padding-top: 10px;
+    background: url("imgs/vineyards.jpg") repeat center;
+}
+.intro {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+}
+.intro2 {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
+}
+.box {
+    width: 80%;
+    margin: auto;
+}
+.box5{
+    width: 80%;
+    margin: auto;
+}
+.box4 {
+    width: 80%;
+    margin: auto;
+}
+.box2 {
+    width: 80%;
+    margin: auto;
+}
+.box3 {
+    display: flex;
+}
+.card {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+    background-color: green;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    color: white;
+}
+.card2 {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid;
+    background-color: green;
+    margin: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    color: white;
+}
+.list {
+    color: grey;
+    font-size: 20px;
+    font-family: cursive;
+}
+ul.nav-bar {
+    padding-left: 0;
+}
+.font {
+    font-size: 60%;
+}
